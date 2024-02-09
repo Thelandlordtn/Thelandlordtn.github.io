@@ -117586,9 +117586,9 @@ A.aqx.prototype={
 $1(a){return A.aSQ(a)},
 $S:140}
 A.aqy.prototype={
-$1(a){var s=J.Y(a)
-s.h(a,"id")
-return new A.l0(s.h(a,"url"),s.h(a,"thumbnail"))},
+$1(a){var s="http://localhost:8080/",r=J.Y(a)
+r.h(a,"id")
+return new A.l0(s+r.h(a,"url"),s+r.h(a,"thumbnail"))},
 $S:679}
 A.aqz.prototype={
 $1(a){var s,r=J.Y(a)
@@ -117686,7 +117686,7 @@ r.n(0,"description",s.Q)
 r.n(0,"pricePerNight",s.as)
 return r}}
 A.avy.prototype={
-$1(a){return a},
+$1(a){return"http://localhost:8080/"+a},
 $S:77}
 A.GN.prototype={
 ga8c(){var s,r,q,p=this,o=p.b
